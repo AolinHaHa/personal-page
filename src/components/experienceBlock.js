@@ -72,8 +72,9 @@ const ExperienceBlock = (props) => {
         </ColLeftAlign>
         <ColRightAlign span={4}>
           <Text>
-            {moment(time[0]).format("MMMM, YYYY")} -{" "}
-            {(time[1] && moment(time[1]).format("MMMM, YYYY")) || "current"}
+            {time[0] && moment(time[0]).format("MMMM, YYYY")} -{" "}
+            {(time[1] && moment(time[1]).format("MMMM, YYYY")) ||
+              moment().format("MMMM, YYYY")}
           </Text>
         </ColRightAlign>
       </Row>

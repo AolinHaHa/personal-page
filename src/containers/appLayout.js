@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Button, Layout, Typography } from "antd";
-import ExperienceBlock from "../components/experienceBlock";
+import Resume from "./resume";
 import styled from "styled-components";
-import { EXPERIENCE_CONTENT } from "../constants/experienceComponentConst";
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -20,24 +19,13 @@ const HeaderWrapper = styled(Header)`
 const ContentWrapper = styled(Content)``;
 
 const AppLayout = () => {
-  const [highlightedKeywords, setHighlightedKeywords] = useState([
-    "NodeJS",
-    "JavaScript",
-  ]);
   return (
     <MasterLayout>
       <SiderWrapper></SiderWrapper>
       <Layout>
         <HeaderWrapper></HeaderWrapper>
         <ContentWrapper>
-          {EXPERIENCE_CONTENT.map((content) => (
-            <ExperienceBlock
-              title={content.title}
-              time={content.time}
-              content={content.content}
-              highlight={highlightedKeywords}
-            />
-          ))}
+          <Resume />
         </ContentWrapper>
         <Footer>Footer</Footer>
       </Layout>

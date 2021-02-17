@@ -15,9 +15,9 @@ export const EXPERIENCE_CONTENT = [
   {
     content: [
       "Developed and integrated a data analytics web application using Agile methodologies and internal UI library",
-      "Implemented micro service with node.js to asynchronously transfer and update database queries in Microsoft Server",
+      "Implemented micro service with NodeJS to asynchronously transfer and update database queries in Microsoft Server",
       "Designed and programmed a HOC (higher order web component) that connects multiple client side, using segue controller to pass the sensitive information between different views.",
-      "Created responsive table view for credit risk management tool by using ReactJS, ElasticUI and highcharts. Created reusable data retrieval component for table modifications and interactions.",
+      "Created responsive table view for credit risk management tool by using React, ElasticUI and highcharts. Created reusable data retrieval component for table modifications and interactions.",
       "Implemented server-side rendering UI with studio features that support user management content control, order system as well as service rating, implemented by using NextJS, React, StyledUI.",
       "Manage and maintain deploy pipeline and vm environment on GCP and Baidu Cloud",
       "Developed web backend with Spring Boot and designed secure user authentication and registration with Apache Shiro, used Mybatis as the persistence layer.",
@@ -28,9 +28,9 @@ export const EXPERIENCE_CONTENT = [
   {
     content: [
       "Developed and integrated a data analytics web application using Agile methodologies and internal UI library",
-      "Implemented micro service with node.js to asynchronously transfer and update database queries in Microsoft Server",
+      "Implemented micro service with NodeJS to asynchronously transfer and update database queries in Microsoft Server",
       "Designed and programmed a HOC (higher order web component) that connects multiple client side, using segue controller to pass the sensitive information between different views.",
-      "Created responsive table view for credit risk management tool by using ReactJS, ElasticUI and highcharts. Created reusable data retrieval component for table modifications and interactions.",
+      "Created responsive table view for credit risk management tool by using React, ElasticUI and highcharts. Created reusable data retrieval component for table modifications and interactions.",
       "Implemented server-side rendering UI with studio features that support user management content control, order system as well as service rating, implemented by using NextJS, React, StyledUI.",
       "Manage and maintain deploy pipeline and vm environment on GCP and Baidu Cloud",
       "Developed web backend with Spring Boot and designed secure user authentication and registration with Apache Shiro, used Mybatis as the persistence layer.",
